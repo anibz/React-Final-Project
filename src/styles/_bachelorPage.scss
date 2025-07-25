@@ -1,0 +1,178 @@
+section {
+  @include container;
+
+  .first-section {
+    margin-top: 105px;
+    .title1 {
+      margin-bottom: 30px;
+      font-size: 24px;
+      .colorful {
+        color: #fd007d;
+      }
+    }
+
+    ul,
+    p {
+      color: #474747;
+    }
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .second-section {
+    margin-top: 108px;
+    .title {
+      font-size: 24px;
+      color: #fd007d;
+    }
+
+    ul {
+      margin-top: 30px;
+
+      li {
+        color: #474747;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+
+    p {
+      margin-top: 74px;
+      color: #474747;
+      font-size: 16px;
+    }
+  }
+
+  .third-section {
+    color: #473d58;
+
+    p {
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+    .second-p {
+      margin-top: 36px;
+    }
+
+    ul {
+      li {
+        a {
+          color: inherit;
+          text-decoration: none;
+          font-weight: 700;
+
+          &:hover {
+            color: #fd007d;
+          }
+        }
+      }
+    }
+  }
+
+  .forth-section {
+    .title {
+      font-size: 24px;
+      color: #fd007d;
+      font-weight: 700;
+      margin-top: 150px;
+      margin-bottom: 32px;
+    }
+
+    a {
+      font-size: 18px;
+      font-weight: 700;
+      color: inherit;
+
+      &:hover {
+        color: #fd007d;
+      }
+    }
+  }
+
+  .fifth-section {
+    form {
+      background-color: #070b80;
+      margin-top: 100px;
+      border-radius: 6px;
+      color: white;
+      padding: 50px;
+
+      .form-titlee {
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 25px;
+      }
+
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        margin-bottom: 45px;
+
+        .form-title {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+
+          label {
+            font-weight: 300;
+          }
+
+          .fifqi {
+            color: #fd007d;
+          }
+
+          input {
+            width: 562px;
+            height: 64px;
+            border-radius: 12px;
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            color: #474747;
+
+            font-family: "Noto Sans Georgian", sans-serif;
+            border: none;
+            font-size: 14px;
+          }
+        }
+      }
+
+      p {
+        font-weight: 300;
+      }
+
+      .radio-button {
+        display: flex;
+        gap: 27px;
+        align-items: center;
+        margin-top: 10px;
+
+        .radio-yes,
+        .radio-no {
+          display: flex;
+          gap: 5px;
+        }
+      }
+      button {
+        background-color: #fd007d;
+        color: white;
+        border: none;
+        padding: 10px 50px;
+        font-size: 24px;
+        border-radius: 12px;
+        margin-top: 54px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor: pointer;
+      }
+    }
+  }
+}

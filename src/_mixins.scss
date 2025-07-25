@@ -1,0 +1,38 @@
+@mixin homepageTitle {
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
+
+@mixin container {
+  max-width: 1252px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+}
+
+@mixin title-container {
+  position: relative;
+  img {
+    width: 100%;
+  }
+
+  .line-text {
+    display: flex;
+    gap: 47px;
+    position: absolute;
+    align-items: center;
+    padding: 20px 134px;
+    top: 0;
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    .line {
+      height: 94px;
+      width: 5px;
+      background-color: #fd007d;
+    }
+  }
+}

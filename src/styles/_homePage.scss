@@ -1,0 +1,123 @@
+.homePage {
+  @include container;
+
+  //first section
+  .carusel {
+    width: 100%;
+    height: 500px;
+    background-color: #fd007d;
+  }
+
+  //second section
+
+  .ai-section {
+    margin-top: 56px;
+    .title {
+      @include homepageTitle;
+      .ai {
+        color: #fd007d;
+      }
+    }
+
+    .text-video {
+      display: flex;
+      margin-top: 47px;
+
+      .text {
+        max-width: 696px;
+        color: #474747;
+        font-size: 16px;
+
+        h3 {
+          margin-top: 24px;
+          color: #fd007d;
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+        .clicked {
+          a {
+            color: inherit;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+
+.success-stories {
+  margin-top: 110px;
+
+  .title {
+    @include homepageTitle;
+  }
+
+  .card-container {
+    margin-top: 73px;
+    display: flex;
+    gap: 42px;
+
+    .card1,
+    .card2,
+    .card3,
+    .card4 {
+      position: relative;
+      width: 280px;
+      height: 307px;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .card-info {
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 55px;
+
+        img {
+          width: 70px;
+          height: 92px;
+        }
+
+        p {
+          background-color: #fd007d;
+          color: white;
+          width: 210px;
+          height: 40px;
+          font-size: 13px;
+          font-weight: 600;
+          align-items: center;
+          display: flex;
+        }
+
+        .different {
+          background-color: #29cdff;
+        }
+      }
+    }
+  }
+}
+
+.women {
+  margin-top: 100px;
+  .title {
+    @include homepageTitle;
+  }
+}
+
+.line {
+  background-color: #fd007d;
+  height: 4px;
+  width: 388px;
+  margin-top: 13px;
+}
