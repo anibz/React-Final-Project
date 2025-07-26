@@ -20,16 +20,7 @@
       grid-template-columns: 1fr 1fr;
       gap: 30px;
 
-      .card1,
-      .card2,
-      .card3,
-      .card4,
-      .card5,
-      .card6,
-      .card7,
-      .card8,
-      .card9,
-      .card10 {
+      .card {
         position: relative;
         max-width: 540px;
         img {
@@ -48,6 +39,14 @@
             font-size: 22px;
             font-weight: 700;
             margin-top: 50px;
+          }
+
+          .student-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            font-size: 18px;
+            font-weight: 700;
           }
         }
       }
