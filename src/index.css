@@ -415,6 +415,27 @@ section .fifth-section form button {
   cursor: pointer;
 }
 
+.success-section {
+  max-width: 1252px;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+}
+.success-section h3 {
+  font-size: 36px;
+  color: #fd007d;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+.success-section .student-list li {
+  list-style-position: inside;
+}
+.success-section .student-list li a {
+  color: inherit;
+  font-size: 20px;
+  list-style-position: inside;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1,0 +1,89 @@
+.success-section {
+  @include container;
+
+  .student-card-container {
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 1px 4px 4px rgba(11, 16, 141, 0.27);
+    padding: 20px 60px 88px;
+    margin-top: 100px;
+
+    h2 {
+      color: #fd007d;
+      font-size: 36px;
+      font-weight: 500;
+      margin-bottom: 76px;
+    }
+
+    .student-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+
+      .card1,
+      .card2,
+      .card3,
+      .card4,
+      .card5,
+      .card6,
+      .card7,
+      .card8,
+      .card9,
+      .card10 {
+        position: relative;
+        max-width: 540px;
+        img {
+          width: 100%;
+        }
+
+        .card-text {
+          position: absolute;
+          color: white;
+          top: -3px;
+          left: 16px;
+
+          .card-title {
+            color: white;
+            margin-bottom: 22px;
+            font-size: 22px;
+            font-weight: 700;
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+
+    .show-more-card {
+      color: #fd007d50;
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 50px;
+      cursor: pointer;
+
+      &:hover {
+        color: #fd007d;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .student-list-container {
+    h2 {
+      font-size: 36px;
+      color: #fd007d;
+      margin-bottom: 50px;
+      margin-top: 80px;
+      font-weight: 500;
+    }
+    .student-list {
+      li {
+        list-style-position: inside;
+        a {
+          color: inherit;
+          font-size: 20px;
+          list-style-position: inside;
+        }
+      }
+    }
+  }
+}
