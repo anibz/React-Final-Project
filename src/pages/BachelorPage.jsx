@@ -2,34 +2,7 @@ import React from "react";
 import title_background from "../assets/title_background.png";
 import gagzavna_button_icon from "../assets/gagzavna_button_icon.svg";
 
-// import emailjs from "@emailjs/browser";
-// import { useRef } from "react";
-
 function BachelorPage() {
-  // const form = useRef();
-
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs
-  //     .sendForm(
-  //       "service_yf4p3wf",
-  //       "template_w2xvwos",
-  //       form.current,
-  //       "ZXjlnC1XO8yVe4yY7"
-  //     )
-  //     .then(
-  //       (result) => {
-  //         console.log(result.text);
-  //         alert("ფორმა წარმატებით გაიგზავნა!");
-  //       },
-  //       (error) => {
-  //         console.log(error.text);
-  //         alert("დაფიქსირდა შეცდომა.");
-  //       }
-  //     );
-  // };
-
   return (
     <>
       <div className="title-container">

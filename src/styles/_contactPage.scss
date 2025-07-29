@@ -1,0 +1,164 @@
+section {
+  @include container;
+
+  .section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 140px;
+    flex-direction: column;
+    text-align: left;
+
+    .title-socials {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .title-block {
+        @include new-title-socials;
+      }
+      .socials {
+        background-color: #fd007d;
+        padding: 4px 16px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        height: 40px;
+      }
+    }
+
+    .line {
+      width: 100%;
+    }
+  }
+
+  .contact-container {
+    .contact-title {
+      color: #070b80;
+      font-size: 24px;
+      margin-top: 40px;
+      margin-bottom: 26px;
+    }
+    .contact-info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .telepone-info {
+        display: flex;
+        gap: 37px;
+        .text {
+          h3 {
+            color: #fd007d;
+            font-weight: 500;
+          }
+          h4 {
+            color: #474747;
+            font-weight: 500;
+          }
+
+          .mail {
+            text-decoration: underline;
+          }
+          .address-text {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+          }
+        }
+      }
+    }
+
+    .map {
+      margin-top: 80px;
+      margin-bottom: 180px;
+    }
+  }
+
+  .section-title-without-socials {
+    @include new-title;
+  }
+
+  form {
+    background-color: #070b80;
+    padding: 50px;
+    border-radius: 6px;
+    color: white;
+    margin-top: 50px;
+
+    .form-titlee {
+      text-align: center;
+      font-size: 24px;
+      font-weight: 700;
+      flex: 1;
+    }
+
+    .form-grid {
+      display: grid;
+      gap: 25px;
+      margin-bottom: 45px;
+      margin-top: 90px;
+
+      .first-row {
+        display: flex;
+        gap: 30px;
+
+        .form-title {
+          flex: 1;
+        }
+      }
+
+      .form-title {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        label {
+          font-weight: 300;
+        }
+
+        .fifqi {
+          color: #fd007d;
+        }
+
+        input {
+          width: 100%;
+          height: 64px;
+          border-radius: 12px;
+          padding: 0 8px;
+          align-items: center;
+          color: #474747;
+
+          font-family: "Noto Sans Georgian", sans-serif;
+          border: none;
+          font-size: 14px;
+        }
+
+        textarea {
+          height: 230px;
+          border-radius: 12px;
+          font-family: "Noto Sans Georgian", sans-serif;
+          font-size: 14px;
+          padding: 8px;
+          color: #474747;
+          width: 100%;
+        }
+      }
+    }
+    button {
+      background-color: #fd007d;
+      color: white;
+      border: none;
+      padding: 10px 50px;
+      font-size: 24px;
+      border-radius: 12px;
+      margin-top: 54px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+    }
+  }
+}

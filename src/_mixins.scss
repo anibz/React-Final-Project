@@ -8,8 +8,7 @@
 @mixin container {
   max-width: 1252px;
   width: 100%;
-  align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 @mixin title-container {
@@ -34,5 +33,24 @@
       width: 5px;
       background-color: #fd007d;
     }
+  }
+}
+
+@mixin new-title {
+  .title {
+    font-size: 36px;
+    color: #fd007d;
+  }
+  .line {
+    width: 100%;
+    background-color: #fd007d;
+    height: 3px;
+  }
+}
+
+@mixin new-title-socials {
+  .title {
+    font-size: 36px;
+    color: #fd007d;
   }
 }
