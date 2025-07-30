@@ -138,6 +138,49 @@ footer .footer-right .email-input-container .email-send-link .email-button {
   border-radius: 55px;
 }
 
+section .about-section {
+  margin-top: 118px;
+  display: flex;
+  gap: 24px;
+}
+section .about-section .about-section-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80px;
+}
+section .about-section .about-section-left .circle {
+  font-size: 36px;
+  color: #070b80;
+  border-radius: 40px;
+  border: 3px solid #070b80;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+section .about-section .about-section-left .left-line {
+  background-color: #070b80;
+  width: 3px;
+  height: 250px;
+}
+section .about-section .about-section-right {
+  margin-top: 8px;
+}
+section .about-section .about-section-right .title h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+section .about-section .about-section-right .title .colored {
+  color: #fd007d;
+}
+section .about-section .about-section-right .text {
+  font-size: 16px;
+  color: #474747;
+}
+
 .homePage {
   max-width: 1252px;
   width: 100%;
