@@ -1,15 +1,6 @@
 .homePage {
   @include container;
 
-  //first section
-  .carusel {
-    width: 100%;
-    height: 500px;
-    background-color: #fd007d;
-  }
-
-  //second section
-
   .ai-section {
     margin-top: 56px;
     .title {
@@ -112,6 +103,36 @@
   margin-top: 100px;
   .title {
     @include homepageTitle;
+  }
+  .card-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    .card {
+      max-width: 280px;
+      color: white;
+      height: 281px;
+      font-size: 12px;
+      line-height: 20px;
+      overflow: hidden;
+
+      p {
+        padding-left: 8px;
+      }
+    }
+    .card1 {
+      background-color: #fc4b58;
+    }
+    .card2 {
+      background-color: #070b80;
+    }
+    .card3 {
+      background-color: #fd007d;
+    }
+    .card4 {
+      background-color: #000046;
+    }
   }
 }
 
